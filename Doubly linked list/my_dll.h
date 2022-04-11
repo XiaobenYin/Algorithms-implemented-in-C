@@ -291,7 +291,7 @@ int dll_insert(dll_t* l, int pos, int item){
 	prevNode->next = newNode;
 	l->count++;
 
-	return 0;
+	return 1;
 }
 
 // Returns the item at position pos starting at 0 ( 0 being the first item )
